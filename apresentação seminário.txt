@@ -1,0 +1,50 @@
+
+
+- Bom, em específico, meu estudo envolve a identificacção de mudanças abrutas em dados cuja característica 
+é irregular (sísmicos, velocidade de vento, preço das ações do mercado finânciero...), 
+por intermédio de mudanças na dimensão fractal.
+
+- O objetivo dessa pesquisa surgiu quando observamos que existia uma possível lacuna na literatura voltada a
+mudanças nesses tipos de dados . 
+Muitas vezes essa mudanças são feitas por meio de regressão- ARIMA, ARX, ARMA-pertencentes à estatística clássica. 
+E, quando existia análise voltada ao fractal - o estudo era feito em cima de tratamento de imagens. 
+
+- Então, a partir disso, nós propomos uma hipótese: Se as dimensões fractais são capazes de quantificar a 
+complexidade dos fenômenos, a mudança de seus valores no mesmo dado pode representar uma modificação na natureza.
+
+-------------------------
+
+- Para isso, antes nós propomos o desenvolvimento em dados artificiais com dimensão conhecida-funções de Weierstrass.
+A partir deles, nós vamos unir em um mesmo conjunto essas funções com três dimensões diferentes, para 
+segmenta-las em diversos blocos iguais. 
+
+- Posteriormente, nós estimamos a dimensão fractal por dois métodos:
+primeiro pelo método das persistências - D encontrado através  da distribuição de frequências de subidas
+e de descidas dos dados. E segundo pelo método do refinamento - análogo ao método dos divisores, mas com a 
+diferença da função divida em segmentos semelhantes e o comprimento das linhas estimantes ser variável. 
+
+- O principal insight neste estudo é observar o que ocorre com os resultados dos métodos em segmentos
+ que contêm dados com mais de uma dimensão. 
+
+- Então, de forma bem breve eu irei mostrar o procedimento. 
+
+- Mas, antes, nós precisariamos verificar se os métodos para estimar D, são sensíveis às variações dos dados. 
+Ou seja, se eu esticar os diminuir a amplitude da função, eu irei encontrar uma mesma dimensão? Para isso nós 
+normalizamos o dados pela divisão da maior variação - aqui para Weierstrass com dimensão 1.5 - e fizemos com que
+a variação máxima fosse um. Esse processo gerou esses dados e verificamos que não modificou o valor de D, 
+eliminando possíveis erros no processo. 
+
+-------------------------------------------------------------------------------------------------
+
+- verificando isso, estes foram os dados e o intervalo do domínio em que há mudança na dimensão são conhecidos.
+
+- O próximo passo foi realizar de modo interativo os segmentos e estimar. 
+- E o que observamos foram que, nos segmentos que continham mais de uma dimensão fractal convergiam, 
+sendo a que onde há (- para +) prevalnência...
+
+EXPLICAR QUE A DIVERGÊNCIA SE DA PELA CARACTERÍSTICA DE CADA MÉTODO. 
+
+
+
+ 
+
